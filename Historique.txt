@@ -1,0 +1,15 @@
+   1 Set-Location -Path C...
+   2 New-Item -path "C:\EvenFolder","C:\OddFolder" -itemtype directory
+   3 Move-Item -Path C:\FolderTest1\File2 -Destination C:\EvenFolder
+   4 Move-Item -Path C:\FolderTest1\File4 -Destination C:\EvenFolder
+   5 Move-Item -Path C:\FolderTest2\File6 -Destination C:\EvenFolder
+   6 Move-Item -Path C:\FolderTest2\File8 -Destination C:\EvenFolder
+   7 Move-Item -Path C:\FolderTest2\File10 -Destination C:\EvenFolder
+   8 Move-Item -Path C:\FolderTest1\File1 -Destination C:\OddFolder
+   9 Move-Item -Path C:\FolderTest1\File3 -Destination C:\OddFolder
+  10 Move-Item -Path C:\FolderTest1\File5 -Destination C:\OddFolder
+  11 Move-Item -Path C:\FolderTest2\File7 -Destination C:\OddFolder
+  12 Move-Item -Path C:\FolderTest2\File9 -Destination C:\OddFolder
+  13 Get-ChildItem .EvenFolder
+  14 Get-ChildItem .oddFolder
+  15 Get-History  historique.txt
